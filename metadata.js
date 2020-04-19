@@ -46,7 +46,7 @@ const layout = {
                       constraints: [
                         // more complex field validation and cross validations
                         [
-                          // each array is 'and' conditions, separated by 'or' condition
+                          // each array contains 'and' conditions, if there are multiple arrays, this signifies an 'or' condition
                           {
                             operation: "regex",
                             value: "/[34]/",
